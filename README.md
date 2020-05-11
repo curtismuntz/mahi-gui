@@ -2,6 +2,21 @@
 <img src="https://raw.githubusercontent.com/mahilab/mahi-gui/master/mahi-gui.png" width="256"> 
 </p>
 
+# MURTIS
+
+system requirements: 
+```!bash
+sudo apt install -y
+    gcc-10 \
+    g++-10 \ 
+    libxcursor-dev \
+    libx11-dev \
+    libxrandr-dev \
+    libxinerama-dev \
+    libxi-dev \
+sudo apt install mesa-common-dev
+```
+
 ## mahi-gui
 
 This library provides an lightweight, all-in-one package for making GUIs and 2D visualizations in C++. It bundles and wraps the following libraries into a neat interface, so you don't have to:

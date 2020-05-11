@@ -329,3 +329,9 @@ __pycache__/
 
 # SFTP configuration file
 sftp-config.json
+
+# bazel
+bazel-*
+
+# clion
+.clwb/
