@@ -14,6 +14,7 @@ sudo apt install -y
     libxrandr-dev \
     libxinerama-dev \
     libxi-dev \
+libgtk-3-dev
 sudo apt install mesa-common-dev
 ```
 

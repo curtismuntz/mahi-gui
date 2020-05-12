@@ -35,15 +35,15 @@ inline Color Linear(const Color& a, const Color& b, float t) {
     };
 }
 
-template <>
-inline HSV Linear(const HSV& a, const HSV& b, float t) {
-    return HSV {
-        Linear(a.h, b.h, t),
-        Linear(a.s, b.s, t),
-        Linear(a.v, b.v, t),
-        Linear(a.a, b.a, t)
-    };
-}
+//template <>
+//inline HSV Linear(const HSV& a, const HSV& b, float t) {
+//    return HSV {
+//        Linear(a.h, b.h, t),
+//        Linear(a.s, b.s, t),
+//        Linear(a.v, b.v, t),
+//        Linear(a.a, b.a, t)
+//    };
+//}
 
 template <typename T>
 inline std::vector<T> Linear(const std::vector<T>& a, const std::vector<T>& b, float t) {
