@@ -9,6 +9,6 @@ cc_library(
         "src/stb_image.h",
         "src/stb_truetype.h",
     ],
-    strip_include_prefix = "src",
+    includes = ["src"],
     visibility = ["//visibility:public"],
 )
