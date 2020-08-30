@@ -67,8 +67,8 @@ cc_library(
         "include/Mahi/Gui/Icons/IconsFontAwesome5Brands.hpp",
     ]),
     copts = [
-        "-fcoroutines",
-        "-std=c++2a",
+        #        "-fcoroutines",
+        "-std=c++14",
     ],
     includes = [
         "include",

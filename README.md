@@ -6,16 +6,7 @@
 
 system requirements: 
 ```!bash
-sudo apt install -y
-    gcc-10 \
-    g++-10 \ 
-    libxcursor-dev \
-    libx11-dev \
-    libxrandr-dev \
-    libxinerama-dev \
-    libxi-dev \
-libgtk-3-dev
-sudo apt install mesa-common-dev
+sudo apt install -y libx11-dev libxcursor-dev libxrandr-dev libxi-dev libxinerama-dev libgtk-3-dev mesa-common-dev glib2.0
 ```
 
 ## mahi-gui
